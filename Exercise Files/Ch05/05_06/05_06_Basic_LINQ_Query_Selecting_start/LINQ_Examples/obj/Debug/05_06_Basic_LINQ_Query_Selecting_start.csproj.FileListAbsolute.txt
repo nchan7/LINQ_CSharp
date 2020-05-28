@@ -1,0 +1,6 @@
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\obj\Debug\05_06_Basic_LINQ_Query_Selecting_start.csprojAssemblyReference.cache
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_06\05_06_Basic_LINQ_Query_Selecting_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb

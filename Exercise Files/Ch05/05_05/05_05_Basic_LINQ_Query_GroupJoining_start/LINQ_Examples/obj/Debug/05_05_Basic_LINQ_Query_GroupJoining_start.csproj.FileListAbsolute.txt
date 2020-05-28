@@ -4,3 +4,8 @@ C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_Gr
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\obj\Debug\05_05_Basic_LINQ_Query_GroupJoining_start.csprojResolveAssemblyReference.cache
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_05\05_05_Basic_LINQ_Query_GroupJoining_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb

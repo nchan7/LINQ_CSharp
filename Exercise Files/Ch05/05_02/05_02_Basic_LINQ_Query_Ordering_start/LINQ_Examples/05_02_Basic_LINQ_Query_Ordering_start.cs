@@ -74,6 +74,15 @@ namespace LINQ_Examples
 
         static void Main(string[] args)
         {
+            IEnumerable<Customer> orderbyStateQuery =
+                from c in customers
+                orderby c.State descending
+                select c;
+
+            foreach (Customer c in orderbyStateQuery)
+            {
+                Console.WriteLine("{0} {1}: {2}", c.First, c.Last, c.State);
+            }
 
             Console.ReadKey();
         }

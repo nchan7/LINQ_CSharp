@@ -74,7 +74,23 @@ namespace LINQ_Examples
 
         static void Main(string[] args)
         {
-            
+            var matchupquery =
+                from c in customers
+                join d in distributors on c.State equals d.State into matches
+                select new
+                {
+                    custname = c.Last,
+                    distname = matches.Select(dist => dist.Name)
+                };
+
+            foreach (var cd in matchupquery)
+            {
+                Console.WriteLine("{0}", cd.custname);
+                foreach (var d in cd.distname)
+                {
+                    Console.WriteLine("  {0}", d);
+                }
+            }
 
 
             Console.ReadKey();

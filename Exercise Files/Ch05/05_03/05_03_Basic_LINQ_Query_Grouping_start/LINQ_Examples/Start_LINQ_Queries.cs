@@ -74,6 +74,23 @@ namespace LINQ_Examples
 
         static void Main(string[] args)
         {
+            IEnumerable<IGrouping<string, Customer>> groupQuery =
+                from c in customers
+                group c by c.State;
+
+            IEnumerable<IGrouping<bool, Customer>> groupPriceQuery
+                =
+                   from c in customers
+                   group c by c.Price >= 1000;
+
+            foreach (IGrouping<bool, Customer> priceGroup in groupPriceQuery)
+            {
+                Console.WriteLine("{0}", priceGroup.Key);
+                foreach (Customer c in priceGroup)
+                {
+                    Console.WriteLine(" {0} {1}: {2}", c.First, c.Last, c.Price);
+                }
+            }
 
             Console.ReadKey();
         }

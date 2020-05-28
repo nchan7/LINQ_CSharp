@@ -71,10 +71,17 @@ namespace LINQ_Examples
 
         static double[] exchange = { 0.89, 0.65, 120.29 };
         #endregion
-
         static void Main(string[] args)
         {
+            IEnumerable<double> exchangeQuery =
+                from c in customers
+                from e in exchange
+                select c.Price * e;
 
+            foreach (double ex in exchangeQuery)
+            {
+                Console.WriteLine("{0:N2}", ex);
+            }
             Console.ReadKey();
         }
     }

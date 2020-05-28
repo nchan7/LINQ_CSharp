@@ -4,3 +4,9 @@ c:\users\barron\documents\visual studio 2012\Projects\LINQ_Examples\LINQ_Example
 c:\users\barron\documents\visual studio 2012\Projects\LINQ_Examples\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
 c:\users\barron\documents\visual studio 2012\Projects\LINQ_Examples\LINQ_Examples\obj\Debug\LINQ_Examples.exe
 c:\users\barron\documents\visual studio 2012\Projects\LINQ_Examples\LINQ_Examples\obj\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\obj\Debug\LINQ_Examples.csprojAssemblyReference.cache
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch05\05_03\05_03_Basic_LINQ_Query_Grouping_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb

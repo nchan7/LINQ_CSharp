@@ -74,6 +74,14 @@ namespace LINQ_Examples
 
         static void Main(string[] args)
         {
+            IEnumerable<CustDist> matchupquery =
+                from c in customers
+                join d in distributors on c.State equals d.State
+                select new CustDist { custName = c.Last, distName = d.Name };
+            foreach (var cd in matchupquery)
+            {
+                Console.WriteLine("{0}, {1}", cd.custName, cd.distName);
+            }
 
             Console.ReadKey();
         }
