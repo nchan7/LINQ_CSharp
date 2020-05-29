@@ -74,7 +74,19 @@ namespace LINQ_Examples
 
         static void Main(string[] args)
         {
-            
+            IEnumerable<Customer> stateQuery = customers.Where(c => c.State == "OR");
+            IEnumerable<Customer> priceQuery = stateQuery.OrderBy(c => c.Price);
+            IEnumerable<string> nameQuery = priceQuery.Select(c => c.Last);
+
+            IEnumerable<string> chainQuery = customers
+                .Where(c => c.State == "OR")
+                .OrderBy(c => c.Price)
+                .Select(c => c.Last);
+
+            foreach (string c in nameQuery)
+            {
+                Console.WriteLine("{0}", c);
+            }
 
             Console.ReadKey();
         }

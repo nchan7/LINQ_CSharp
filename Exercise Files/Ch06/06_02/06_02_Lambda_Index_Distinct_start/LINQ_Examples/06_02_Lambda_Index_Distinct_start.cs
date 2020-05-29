@@ -107,10 +107,15 @@ namespace LINQ_Examples
                 where c.State == "OR" && c.Price > 1000
                 select c;
             */
+            IEnumerable<double> yenQuery = ExchangedPrices
+                .Where((n, index) => index % 3 == 0);
 
-            foreach (Customer c in stateQuery)
+            IEnumerable<string> prodQuery = Purchases
+                .Distinct();
+
+            foreach (string p in prodQuery)
             {
-                Console.WriteLine("{0} {1}: {2:C}", c.First, c.Last, c.Price);
+                Console.WriteLine("{0}", p);
             }
             
             Console.ReadKey();

@@ -4,3 +4,9 @@ C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Exa
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\07_02_into_start.csprojResolveAssemblyReference.cache
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
 C:\Users\Olivia Chiu\Desktop\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\07_02_into_start.csprojAssemblyReference.cache
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch07\07_02\07_02_into_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb

@@ -87,14 +87,16 @@ namespace LINQ_Examples
 
             var topEuroQuery =
                 from c in customers
-                select c.Price * 0.89
-                where c.Price > 500
-                orderby c.Last;
+                select new { euro = c.Price * 0.89, cust = c }
+                into inEuros
+                where inEuros.euro > 500
+                orderby inEuros.cust.Last
+                select new { inEuros.cust.Last, inEuros.euro };
                 
 
             foreach (var c in topEuroQuery)
             {
-                Console.WriteLine("{0}: {1:N2}", c.Last, c.Price);
+                Console.WriteLine("{0}: {1:N2}", c.Last, c.euro);
             }
 
             Console.ReadKey();

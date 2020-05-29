@@ -104,7 +104,16 @@ namespace LINQ_Examples
             IEnumerable<string> prodQuery = Purchases
                 .Distinct();
 
-            
+            //IEnumerable<string> displayQuery = prodQuery
+            //    .Skip(3).Take(3);
+
+            IEnumerable<string> displayQuery = prodQuery
+                .TakeWhile(p => p.Contains("Panel"));
+
+            foreach (string p in displayQuery)
+            {
+                Console.WriteLine("{0}", p);       
+            }
             
             Console.ReadKey();
         }

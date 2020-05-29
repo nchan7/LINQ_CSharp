@@ -84,14 +84,20 @@ namespace LINQ_Examples
                 group c by c.Price >= 1000;
             */
 
+            //IEnumerable<IGrouping<string, Customer>> groupQuery = customers
+            //    .GroupBy(c => c.State);
+
+            IEnumerable<IGrouping<bool, Customer>> groupQuery =
+                customers
+                    .GroupBy(c => c.Price >= 1000);
 
 
-            foreach (IGrouping<string, Customer> stateGroup in groupQuery)
+            foreach (IGrouping<bool, Customer> stateGroup in groupQuery)
             {
                 Console.WriteLine("{0}", stateGroup.Key);
                 foreach (Customer c in stateGroup)
                 {
-                    Console.WriteLine("  {0} {1}", c.First, c.Last);
+                    Console.WriteLine("  {0} {1}: {2:C}", c.First, c.Last, c.Price);
                 }
             }
 

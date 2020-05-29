@@ -107,6 +107,8 @@ namespace LINQ_Examples
                 where c.State == "OR" 
                 select c;
             */
+            IEnumerable<Customer> stateQuery = customers
+                .Where(c => c.State == "OR");
 
             foreach (Customer c in stateQuery)
             {

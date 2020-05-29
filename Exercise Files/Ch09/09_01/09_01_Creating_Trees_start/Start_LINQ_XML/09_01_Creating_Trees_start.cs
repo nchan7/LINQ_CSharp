@@ -48,12 +48,16 @@ namespace Start_LINQ_XML
                 new XComment("Customer List xml"),
 
                 new XElement ("Customers",
-                    new XElement("Customer", new XAttribute("ID", "LD2961"),
-                        new XElement("First", "Cailin"),
-                        new XElement("Last", "Alford"),
-                        new XElement("State", "GA")
-                        ))
+                    from c in customers
+                    where c.State == "OR"
+                    select new XElement("Customer", new XAttribute("ID", c.ID),
+                        new XElement("First", c.First),
+                        new XElement("Last", c.Last),
+                        new XElement("State", c.State)
+                    ))
             );
+
+            document.Save("Customers.xml");
 
 
             Console.ReadKey();

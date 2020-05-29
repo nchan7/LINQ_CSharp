@@ -1,0 +1,6 @@
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\bin\Debug\Start_LINQ_Scalar.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\bin\Debug\Start_LINQ_Scalar.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\bin\Debug\Start_LINQ_Scalar.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\obj\Debug\10_02_Singular_start.csprojAssemblyReference.cache
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\obj\Debug\Start_LINQ_Scalar.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch10\10_02\10_02_Singular_start\Start_LINQ_Scalar\obj\Debug\Start_LINQ_Scalar.pdb

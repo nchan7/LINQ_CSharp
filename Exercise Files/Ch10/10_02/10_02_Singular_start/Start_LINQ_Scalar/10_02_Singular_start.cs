@@ -62,8 +62,7 @@ namespace Start_LINQ_Scalar
         static void Main(string[] args)
         {
             Distributor element = distributors
-                .Where(d => d.State == "GA")
-                .First();
+                .Single(d => d.State == "GA");
 
             if (element != null)
             {

@@ -10,9 +10,12 @@ namespace Start_LINQ_XML
 
         static void Main(string[] args)
         {
-            
+            var custQuery = 
+                from c in XDocument.Load("Customers.xml").Descendants("Customer")
+                where (c.Element("State").Value) == "OR"
+                select c.Element("First").Value
 
-            Console.ReadKey();
+        Console.ReadKey();
             
         }
     }

@@ -1,0 +1,6 @@
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe.config
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\bin\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\bin\Debug\LINQ_Examples.pdb
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\obj\Debug\06_03_Lambda_Take_Skip_start.csprojAssemblyReference.cache
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\obj\Debug\LINQ_Examples.exe
+C:\Users\nchan\source\repos\LINQ_CSharp\Exercise Files\Ch06\06_03\06_03_Lambda_Take_Skip_start\LINQ_Examples\obj\Debug\LINQ_Examples.pdb

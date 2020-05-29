@@ -135,18 +135,21 @@ namespace Start_LINQ_SQL
             products.Add("Panel 180");
             products.Add("Bulb 24W");
             products.Add("12V Li");
+            products.Add(1423);
 
-            /*var alQuery = products
-                .OrderBy(p => p);*/
+            //var alQuery = products
+            //    .OfType<string>()
+            //    .OrderBy(p => p);
 
-            /*var custQuery = customers
+            var custQuery = customers
+                .AsEnumerable()
                 .Where(c => c.State == "OR")
                 .SkipWhile(c=>c.Last.Contains("B"));
-            */
+            
 
-            foreach (var p in alQuery)
+            foreach (var p in custQuery)
             {
-                Console.WriteLine("{0}", p);
+                Console.WriteLine("{0}", p.Last);
             }
 
             Console.ReadKey();

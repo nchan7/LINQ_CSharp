@@ -81,6 +81,9 @@ namespace LINQ_Examples
                 select c;
             */
 
+            IOrderedEnumerable<Customer> orderbyStateQuery = customers
+                .OrderBy(c => c.State)
+                .ThenBy(c => c.Last);
 
 
             foreach (Customer c in orderbyStateQuery)

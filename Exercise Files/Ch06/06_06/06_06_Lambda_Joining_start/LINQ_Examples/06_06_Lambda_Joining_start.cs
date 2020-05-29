@@ -94,10 +94,19 @@ namespace LINQ_Examples
                 };
             */
 
+            var matchupQuery = customers
+                .GroupJoin(
+                    distributors,
+                    c => c.State,
+                    d => d.State,
+                    (c, d) => new
+                        {custName = c.Last, distName = d.Select(dist => dist.Name)});
 
 
-            foreach (var cd in matchupquery)
+        foreach (var cd in matchupQuery)
             {
+                Console.WriteLine("Customer: {0}", cd.custName);
+                foreach (var dist in cd.distName)
                 Console.WriteLine("{0}, {1}", cd.custName, cd.distName);
             }
 
